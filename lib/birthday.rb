@@ -7,8 +7,7 @@
 def happy_birthday(birthday_kids)
   birthday_kids.each do |kids_name, age|
   puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
-  birthday_kids.collect do |name, age|
-    age * 7
 end
 end
-end
+
+def age_appropriate_birthday
